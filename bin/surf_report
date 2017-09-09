@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'surf_report'
+require_relative '../lib/surf_report'
 
-chatter = SurfReport::Chatter.new
-chatter.say_hello
+SurfReport::CLI.new
