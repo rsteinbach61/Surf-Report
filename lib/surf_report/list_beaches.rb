@@ -8,7 +8,7 @@ class SurfReport::List_beaches
 		while choice != 'EXIT'
 			puts "1: Venice"
 			puts "2: Malibu"
-			puts "Pick a beach"
+			puts "Pick a beach or type EXIT to leave."
 			choice = gets.strip.upcase
 
 			case choice
