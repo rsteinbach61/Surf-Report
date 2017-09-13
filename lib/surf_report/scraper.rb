@@ -9,4 +9,3 @@ class SurfReport::Scraper
 	end
 end
 
-#http://www.surfline.com/surf-forecasts/southern-california/north-santa-barbara-county_2963/
