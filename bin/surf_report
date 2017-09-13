@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/surf_report'
-#require_relative '../config/environment'
+
 SurfReport::CLI.new.call
-#SurfReport::Scraper.new.scraping
+
 
