@@ -3,6 +3,6 @@ class SurfReport::CLI
 
 	 def call
 	 	puts "Welcome surfers. Cowabunga!"
-	 	SurfReport::List_beaches.new.list
+	 	SurfReport::Beach.new_beaches
 	 end 
 end
