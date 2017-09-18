@@ -1,6 +1,6 @@
 source "https://rubygems.org"
-require "pry"
-Pry.start
+gem 'require_all'
+gem 'pry'
 
 # Specify your gem's dependencies in surf_report.gemspec
 gemspec
